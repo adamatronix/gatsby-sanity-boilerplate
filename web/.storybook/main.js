@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   "stories": [
     "../src/**/*.stories.mdx",
@@ -13,6 +15,8 @@ module.exports = {
     "builder": "@storybook/builder-webpack5"
   },
   "webpackFinal": async (config, { configType }) => {
+    config.resolve.modules.push(path.resolve(__dirname, '../src'));
+
     const fileLoaderRule = config.module.rules.find(rule => rule.test && rule.test.test('.svg'));
     fileLoaderRule.exclude = /\.svg$/;  
  
