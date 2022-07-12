@@ -12,7 +12,24 @@ module.exports = {
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-image',
+    'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
+    "gatsby-plugin-resolve-src",
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /.svg$/,
+        }
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
     {
       resolve: 'gatsby-source-sanity',
       options: {
