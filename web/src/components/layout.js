@@ -3,6 +3,7 @@ import Header from "./header";
 import { GlobalStyle } from 'utils/global';
 
 import "../styles/layout.css";
+import "../fonts/fonts.css";
 import * as styles from "./layout.module.css";
 
 const Layout = ({ children, onHideNav, onShowNav, showNav, siteTitle }) => (

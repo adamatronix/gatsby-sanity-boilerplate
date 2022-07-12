@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Founders Grotesk';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Founders\ Grotesk/FoundersGrotesk-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Founders Grotesk';
+  font-style:  italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Founders\ Grotesk/FoundersGrotesk-RegularItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Founders Grotesk';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./Founders\ Grotesk/FoundersGrotesk-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Founders Grotesk';
+  font-style:  italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./Founders\ Grotesk/FoundersGrotesk-SemiboldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Ku Mincho';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./KuMincho/KuMincho-R.otf") format("opentype");
+}
