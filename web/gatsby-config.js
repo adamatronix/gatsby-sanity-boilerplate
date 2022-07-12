@@ -12,6 +12,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-image',
+    'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     "gatsby-plugin-resolve-src",
     {
