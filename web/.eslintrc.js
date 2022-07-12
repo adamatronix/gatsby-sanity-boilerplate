@@ -14,12 +14,7 @@ module.exports = {
   rules: {
     "react/prop-types": "off"
   },
-  extends: [
-    "eslint:recommended",
-    "plugin:import/errors",
-    "plugin:react/recommended",
-    "plugin:prettier/recommended"
-  ],
+  extends: ["eslint:recommended", "plugin:import/errors", "plugin:react/recommended", "plugin:prettier/recommended", "plugin:storybook/recommended"],
   settings: {
     react: {
       pragma: "React",
